@@ -17,6 +17,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="index.js"></script>
+  <script src="validation.js"></script>
 
 </head>
 <body>
@@ -119,44 +120,44 @@
 <!-- Contact -->
 
 <div class="contact" id="letstalk">
-  <div class="flexbox-container-contact">
-    <h5>Kontakt</h5>
-    <p>Jeśli chcesz nawiązać ze mną współpracę lub po prostu napić się wspólnie jakiegoś dobrego piwa, to napisz bezpośrednio na <a href="mailto:czesc@wozniczak.pl">czesc@wozniczak.pl</a>, odezwij się na soszalach albo użyj formularza kontaktowego na dole.</p>
-  <div class="flexbox-container-contact-bottom">
-    <div class="contact-item-left">
-      <div class="icon-bar-item">
-        <a href="#">
-        <img src="./icons/icons8-facebook-50.png" id="contact-icon">
-        </a>
+    <div class="flexbox-container-contact">
+      <h5>Kontakt</h5>
+      <p>Jeśli chcesz nawiązać ze mną współpracę lub po prostu napić się wspólnie jakiegoś dobrego piwa, to napisz bezpośrednio na <a href="mailto:czesc@wozniczak.pl">czesc@wozniczak.pl</a>, odezwij się na soszalach albo użyj formularza kontaktowego na dole.</p>
+    <div class="flexbox-container-contact-bottom">
+      <div class="contact-item-left">
+        <div class="icon-bar-item">
+          <a href="#">
+          <img src="./icons/icons8-facebook-50.png" id="contact-icon">
+          </a>
+        </div>
+        <div class="icon-bar-item">
+          <a href="#">
+          <img src="./icons/icons8-flickr-50.png" id="contact-icon">
+          </a>
+        </div>
+        <div class="icon-bar-item">
+          <a href="#">
+          <img src="./icons/icons8-instagram-50.png" id="contact-icon">
+          </a>
+        </div>
       </div>
-      <div class="icon-bar-item">
-        <a href="#">
-        <img src="./icons/icons8-flickr-50.png" id="contact-icon">
-        </a>
-      </div>
-      <div class="icon-bar-item">
-        <a href="#">
-        <img src="./icons/icons8-instagram-50.png" id="contact-icon">
-        </a>
-      </div>
+      <div class="contact-item-right">     
+        <div class="contact-form">
+          <form class="form">
+            <div class="id">
+              <input type="text" class="input" id="name" placeholder="Imię" name="fname" required>
+              <input type="email" class="input" placeholder="E-mail">
+            </div>
+            <div class="content">            
+              <textarea class="window-msg" type="text" placeholder="Treść wiadomości" required></textarea>              
+              <input type="submit" class="btn" value="Wyślij">
+            </div>      
+          </form>
+        </div> 
     </div>
-    <div class="contact-item-right">     
-      <div class="contact-form">
-        <form class="form">
-          <div class="id">
-            <input type="text" class="input" id="name" placeholder="Imię">
-            <input type="text" class="input" placeholder="E-mail">
-          </div>
-          <div class="content">            
-            <textarea class="window-msg" placeholder="Treść wiadomości"></textarea>              
-            <div class="btn">Wyślij</div>
-          </div>      
-        </form>
-      </div> 
+    </div>
+    </div>
   </div>
-  </div>
-  </div>
-</div>
 
 
 
