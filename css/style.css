@@ -46,7 +46,7 @@ nav {
 }
 
 header {
-    background-image: url("/img/bruno-cervera-762356-unsplash.jpg");
+    background-image: url('../img/bruno-cervera-762356-unsplash.jpg');
     background-size: cover;
     position: relative;
     background-position: center;
@@ -127,7 +127,7 @@ h1 {
 figure {
     width: 350px;
     height: 500px;
-    background-image: url(/img/chanvre-quebec-531856-unsplash.jpg);
+    background-image: url('../img/chanvre-quebec-531856-unsplash.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -252,7 +252,7 @@ h3 {
 
 .contact {
     margin-top: 150px;
-    background-image: url("/img/rawpixel-558599-unsplash.jpg");
+    background-image: url("../img/rawpixel-558599-unsplash.jpg");
     background-size: cover;
     background-position: inherit;
     background-position-y: 70%; 
@@ -422,7 +422,7 @@ footer {
 
     header {
         height: 100vh;
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(241,239,239, 0.8)), url("/img/bruno-cervera-762356-unsplash.jpg"); 
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(241,239,239, 0.8)), url("../img/bruno-cervera-762356-unsplash.jpg"); 
     }
 
     #arrow {
