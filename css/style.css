@@ -1,0 +1,651 @@
+/* Global */ 
+
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #e7ae80;
+}
+
+
+.decoration {
+    border-bottom: 1.5px solid #ebbc95;
+    font-size: 20px;
+    color: #97938e;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    font-size: 16px;
+    color: #000;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 25px 35px 25px 35px;
+}
+
+header {
+    background-image: url("/img/bruno-cervera-762356-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed; 
+    height: 85vh;
+    background-position-y: 40%;
+  }
+
+.flexbox-container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 130px;
+}
+
+.p-header {
+    font-size: 20px;
+    padding: 25px;
+}
+
+ #arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 10%;
+    color: rgba(34, 34, 34, 1.0);
+    transform: translateX(-50%);
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0px -15px 0;
+    cursor: pointer; 
+    text-decoration: none;
+} 
+    
+
+.fa-angle-down {
+    animation: arrow 1.45s infinite linear;
+} 
+
+.introduction {
+    width: 100%;
+}
+
+
+/* Introduction */
+
+.flexbox-container-introduction { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.introduction-left, .introduction-right {
+    margin-top: 100px;
+}
+
+.introduction-left {
+    width: 400px;
+    padding: 20px;
+}
+
+.introduction-right {
+    width: 400px;
+    padding: 20px;
+}
+
+figure {
+    width: 350px;
+    height: 500px;
+    background-image: url(/img/chanvre-quebec-531856-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.introduction-right p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+} 
+
+
+
+/* Services */
+
+.services {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.services-background {
+    width: 80%;
+    background-color: #F1EFEF;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.flexbox-container-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.services-item {
+    padding: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 25%;
+}
+
+.service-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.services-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* Projects */
+
+.projects {
+    margin-top: 150px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 60px;
+}
+
+.flexbox-container-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-item {
+    padding: 15px;
+}
+  
+.photo {
+    width: 350px;
+    max-height: 450px; 
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.project-item p {
+    font-size: 16px;
+    margin-top: 30px;
+    color: #97938e;
+    text-align: center;
+}
+
+.photo-center {
+    width: 350px;
+    max-height: 500px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    position: relative;
+}
+
+.photo:hover, .photo-center:hover {
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+
+  /* Contact */
+
+.contact {
+    margin-top: 150px;
+    background-image: url("/img/rawpixel-558599-unsplash.jpg");
+    background-size: cover;
+    background-position: inherit;
+    background-position-y: 70%; 
+}
+
+.flexbox-container-contact {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 55%;
+    margin-left: 150px;
+}
+
+h5 {
+    font-size: 27px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.flexbox-container-contact p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.flexbox-container-contact-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.contact-item-left {
+    margin-left: 52px;
+    margin-top: 100px;
+}
+
+.icon-bar-item {
+    margin-bottom: 10px;
+}
+
+.icon-bar-item a, .icon-bar-item a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#contact-icon {
+    width: 45px;
+}
+
+#contact-icon:hover {
+    background-color: #F1EFEF;
+}
+
+.contact-item-right {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-form { 
+    margin-top: 60px;
+}
+
+.input, .window-msg {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.id input, .content textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 1.5px solid #d3d2cf;
+  padding: 10px;
+  color: #000000;
+  width: 100%;
+}
+
+.window-msg {
+    width: auto;
+    height: 120px;
+}
+
+.btn {
+    font-family: 'Roboto'; 
+    font-size: 16px;
+    background-color: transparent;
+    border: 1.5px solid #ebbc95;
+    padding: 10px 11px;
+    text-align: center;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1.5px solid #555555;
+    color: black;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: white;
+}
+
+.footer-copyright {
+    padding: 25px 10px 20px 0;
+}
+
+.footer-copyright p {
+    text-align: right;
+    font-size: 12px;
+    color: #97938e;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1024px) {
+   h1 {
+       font-size: 34px;
+       margin-top: 100px;
+   }
+
+   .services {
+       margin-top: 150px;
+   }
+
+   .services-item {
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 25%;
+    }
+
+    .photo-center {
+    -webkit-filter: none;
+    filter: none;
+    }
+
+    .contact {
+    background-image: none;
+    background-color:  #F1EFEF;
+    height: auto;
+    }
+
+    .flexbox-container-contact {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 100vh;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(241,239,239, 0.8)), url("/img/bruno-cervera-762356-unsplash.jpg"); 
+    }
+
+    #arrow {
+        bottom: 15%;
+        transform: translateX(10%);
+    }
+
+    figure {
+        width: 85%;
+    }
+
+    .introduction-left, .introduction-right {
+        width: 40%;
+        padding: 1px;
+    }
+
+    .introduction-right p {
+        font-size: 18px;
+    }
+
+    .services-background {
+        width: 90%;
+    }
+
+    .services-item {
+        padding: 10px;
+        width: 30%;
+    }
+
+    .services-text {
+        font-size: 18px;
+        color: #555555;
+        padding: 0 15px 0 15px;
+    }
+
+    .project-item {
+        padding: 15px;
+    }
+
+    .photo {
+        width: 330px;
+    }
+
+    .project-item p {
+        font-size: 16px;
+    }
+
+    .contact {
+        background-image: none;
+        background-color:  #F1EFEF;
+        height: auto;
+    }
+    
+    .flexbox-container-contact {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexbox-container-contact p {
+        font-size: 18px;
+    }
+    
+    .contact-item-left {
+        width: 15%;
+        margin-left: 1px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .decoration {
+        border-bottom: 1.5px solid #ebbc95;
+        font-size: 17px;
+        color: #97938e;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .nav-item {
+        font-size: 12px;
+        padding: 25px 25px 25px 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-top: 50%;
+    }
+
+    .p-header {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    #arrow {
+        transform: translateX(-10%);
+        font-size: 2rem;
+    }
+
+    .introduction-left {
+        display: none;
+    }
+
+    .introduction-right {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    h2, .introduction-right p {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .introduction-right p {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .services {
+        margin-top: 80px;
+    }
+
+    .services-item {
+        width: 80%;
+        padding: 10px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .services-text {
+        font-size: 16px;
+    }
+
+    .projects {
+        margin-top: 80px;
+    }
+
+    h3 {
+        padding: 20px;
+    }
+
+    .photo, .photo-center {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-filter: none;
+        filter: none;
+    }
+
+    .project-item p {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact {
+        margin-top: 80px;
+        background-image: none;
+        background-color:  #F1EFEF;
+        height: auto;
+    }
+    
+    .flexbox-container-contact {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h5 {
+        font-size: 20px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .flexbox-container-contact p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .contact-item-left {
+        width: 60%;
+        margin-left: 35%;
+        margin-top: 30px;
+        display: flex;
+    }
+
+    #contact-icon {
+        width: 30px;
+    }
+
+    .contact-item-right {
+        width: 300px;
+    }
+
+    .contact-form { 
+        margin-top: 30px;
+    }
+
+    .id input, .content textarea {
+        padding: 10px 0 10px 0;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px 11px 10px;
+    }
+}
+
+
+/*Actions */
+
+@keyframes arrow {
+    0% {color: rgba(0, 0, 0, 0);
+        transform: translateY(-15px)}
+    50% {color: rgba(34, 34, 34, 1.0);
+        transform: translateY(0px)}
+    100% {color: rgba(255, 255, 255, 0);
+        transform: translateY(15px)}
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Bartek Woźniczak - portfolio site</title>
+
+  <link href="https://fonts.googleapis.com/css?family=
+  Montserrat:400,600,800&amp;subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300&amp;subset=latin-ext" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+</head>
+<body>
+
+
+
+<!-- Navigation -->
+
+<nav>
+  <a href="#about" class="nav-item">O mnie</a>
+  <a href="#projects" class="nav-item">Projekty</a>
+  <a href="#letstalk" class="nav-item">Kontakt</a>
+</nav>
+
+
+
+<!-- Header -->
+
+<header>
+  <div class="flexbox-container-header">
+    <h1>Bartek Woźniczak</h1>
+    <p class="p-header">Fotograf, droniarz, <span class="decoration">freelancer</span></p>
+    <div id="arrow"><a href="#about"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+  </div>
+</header>
+
+
+
+<!-- About -->
+
+<div class="introduction" id="about">
+  <div class="flexbox-container-introduction">
+    <div class="introduction-left">
+        <figure></figure>      
+    </div>
+    <div class="introduction-right">
+      <h2>Fotografia to moja pasja</h2>
+      <p>Fotografuję od 6 lat. Zaczynałem jako fotograf ślubny, dziś najlepiej czuję się w zdjęciach biznesowych i lotniczych z drona.</p>
+      <p>W swojej pracy kieruję się słowami mistrza Erwitta: <span class="decoration">Fotografia jest dla mnie sztuką obserwacji. To umiejętność znalezienia czegoś interesującego w zwykłym miejscu. Odkryłem, że nie jest zbyt istotne co widać – istotne jest to, co potrafisz z tym zrobić.</span></p>
+      <p>A tak poza tym, to lubię dobre piwo i Kurta Vonneguta. Fajnie, że tu jesteś!</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Services -->
+
+<div class="services">
+  <h3>Oferta</h3>
+  <div class="services-background">
+    <div class="flexbox-container-services">
+      <div class="services-item">
+        <img src="/icons/icons8-quadcopter-50.png" class="service-icon">
+        <h4>Foto</h4>
+        <p class="services-text">Przy pomocy profesjonalnej sesji produktowej, wizerunkowej lub budynku zbudujemy lub wyrazimy Twoją markę</p>
+      </div>
+      
+      <div class="services-item">
+        <img src="/icons/icons8-lens-50.png" class="service-icon">
+        <h4>Dron</h4>
+        <p class="services-text">Pomogę Ci uwiecznić imprezę prywatną lub masową, pokazać krajobraz lub budynek z zupełnie innej perspektywy</p>
+      </div>
+            
+      <div class="services-item">
+        <img src="/icons/icons8-seesaw-50.png" class="service-icon">
+        <h4>Fun</h4>
+        <p class="services-text">Jeśli masz pomysł na inną formę współpracy, to też na pewno się dogadamy</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- Projects -->
+
+<div class="projects" id="projects">
+  <h3>Ostatnie realizacje</h3>
+   <div class="flexbox-container-projects">
+      <div class="project-item">
+        <img src="/img/luqman-hakkim-416065-unsplash.jpg" class="photo">
+          <p>Sesja promocyjna dronem dla miasta Łeba</p>          
+      </div>
+
+      <div class="project-item">
+        <img src="/img/tyler-nix-685437-unsplash.jpg" class="photo-center">
+          <p>Sesja wizerunkowa dla Studia ŁajKa</p>
+      </div>
+      
+      <div class="project-item">
+        <img src="/img/krists-luhaers-676036-unsplash.jpg" class="photo">
+          <p>Sesja produktowa dla marki Eco-Eteżerka</p>
+      </div>
+    </div>
+</div> 
+
+
+
+<!-- Contact -->
+
+<div class="contact" id="letstalk">
+  <div class="flexbox-container-contact">
+    <h5>Kontakt</h5>
+    <p>Jeśli chcesz nawiązać ze mną współpracę lub po prostu napić się wspólnie jakiegoś dobrego piwa, to napisz bezpośrednio na <a href="mailto:czesc@wozniczak.pl">czesc@wozniczak.pl</a>, odezwij się na soszalach albo użyj formularza kontaktowego na dole.</p>
+  <div class="flexbox-container-contact-bottom">
+    <div class="contact-item-left">
+      <div class="icon-bar-item">
+        <a href="#">
+        <img src="/icons/icons8-facebook-50.png" id="contact-icon">
+        </a>
+      </div>
+      <div class="icon-bar-item">
+        <a href="#">
+        <img src="/icons/icons8-flickr-50.png" id="contact-icon">
+        </a>
+      </div>
+      <div class="icon-bar-item">
+        <a href="#">
+        <img src="/icons/icons8-instagram-50.png" id="contact-icon">
+        </a>
+      </div>
+    </div>
+    <div class="contact-item-right">     
+      <div class="contact-form">
+        <form class="form">
+          <div class="id">
+            <input type="text" class="input" id="name" placeholder="Imię">
+            <input type="text" class="input" placeholder="E-mail">
+          </div>
+          <div class="content">            
+            <textarea class="window-msg" placeholder="Treść wiadomości"></textarea>              
+            <div class="btn">Wyślij</div>
+          </div>      
+        </form>
+      </div> 
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer-copyright">
+        <p>2018 | created with ♡ by pandalajka</p>
+     </div>
+</footer>
+
+
+
+</body>
+</html>
