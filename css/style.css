@@ -417,17 +417,28 @@ footer {
 }
 
 
+@media screen and (min-width: 481px) and (max-width: 857px) {
 
-@media screen and (max-width: 768px) {
+    .nav-item {
+        font-size: 14px;
+    }
 
     header {
         height: 100vh;
         background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(241,239,239, 0.8)), url("../img/bruno-cervera-762356-unsplash.jpg"); 
     }
 
+    h1 {
+        font-size: 28px;
+    }
+
+    .p-header {
+        padding: 5px;
+    }
+
     #arrow {
         bottom: 15%;
-        transform: translateX(10%);
+        transform: translateX(1%);
     }
 
     figure {
@@ -440,7 +451,11 @@ footer {
     }
 
     .introduction-right p {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .decoration {
+        font-size: 16px;
     }
 
     .services-background {
@@ -449,11 +464,11 @@ footer {
 
     .services-item {
         padding: 10px;
-        width: 30%;
+        width: 25%;
     }
 
     .services-text {
-        font-size: 18px;
+        font-size: 16px;
         color: #555555;
         padding: 0 15px 0 15px;
     }
@@ -467,30 +482,64 @@ footer {
     }
 
     .project-item p {
-        font-size: 16px;
+        font-size: 14px;
     }
-
+   
     .contact {
+        margin-top: 80px;
         background-image: none;
         background-color:  #F1EFEF;
         height: auto;
     }
     
     .flexbox-container-contact {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
 
+    h5 {
+        font-size: 20px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
     .flexbox-container-contact p {
-        font-size: 18px;
+        font-size: 16px;
+        text-align: center;
     }
     
     .contact-item-left {
-        width: 15%;
-        margin-left: 1px;
+        width: 60%;
+        margin-left: auto;
+        margin-top: 30px;
+        display: flex;
+    }
+
+    #contact-icon {
+        width: 35px;
+        margin-top: 10px;
+    }
+
+    .contact-item-right {
+        width: 300px;
+    }
+
+    .contact-form { 
+        margin-top: 30px;
+    }
+
+    .id input, .content textarea {
+        padding: 10px 0 10px 0;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px 11px 10px;
     }
 }
+
+
 
 
 @media screen and (max-width: 480px) {
