@@ -3,20 +3,17 @@
 * {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
-
 
 p {
     font-family: 'Roboto', sans-serif;
 }
 
-
 a {
     text-decoration: none;
     color: #e7ae80;
 }
-
 
 .decoration {
     border-bottom: 1.5px solid #ebbc95;

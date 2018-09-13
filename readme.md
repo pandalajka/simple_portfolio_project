@@ -2,10 +2,10 @@
 Simple, modern portfolio project with a clean design and neat arrangement of contents. 
 
 ## Technologies
-Project is created with:
+This project is created with:
 * HTML5
 * CSS3 & Flexbox
-* JavaScript
+* jQuery
 
 
 ## Credits
